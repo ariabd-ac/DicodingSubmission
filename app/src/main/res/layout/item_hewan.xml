@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_item_gambar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        tools:src="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/iv_item_gambar"
+        android:layout_toRightOf="@id/iv_item_gambar"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_item_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:text="@string/item_nama"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_asal_hewan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:text="@string/asal"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

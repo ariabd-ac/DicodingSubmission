@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SubmisionDicoding</string>
+    <string name="item_nama">Nama Hewan</string>
+    <string name="heroes_name">nama</string>
+    <string name="detail">detail</string>
+    <string name="profile">Profile</string>
+    <string name="ariabd_gmail_com">ariabd.com@gmail.com</string>
+    <string name="ari_abd">Ari Abd. G</string>
+    <string name="daftar_hewan">Daftar Hewan</string>
+    <string name="asal">Asal</string>
+    <string name="icon_profile">icon_profile</string>
+</resources>
